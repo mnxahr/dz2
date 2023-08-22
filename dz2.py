@@ -1,56 +1,62 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Главная страница</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles1.css">
+  <title>Document</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Мой сайт</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Главная</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">О нас</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <h1>Вебсайт</h1>
-    <form action="">
-        <div>
-            <label for="textfield" class="lead">Логин</label>
-            <input class="form-control" placeholder="Логин" type="text" id="textfield"><br>
-        </div>
-        <div>
-            <label for="passfield" class="lead">Пароль</label>
-            <input class="form-control" placeholder="Пароль" type="password" id="passfield"><br>
-        </div>
-        <div>
-            <label for="textareafield" class="lead">Комментарий</label>
-            <textarea class="form-control" placeholder="Введите комментарий" id="textareafield"></textarea><br>
-        </div>
-        <div class="form-check form-switch">
-            <input class="form-check-input" type="checkbox" role="switch" id="checkfield">
-            <label class="lead" for="checkfield">Согласен с политикой конфиденциальности</label>
-        </div>
-        <button type="button" class="btn btn-success">Войти</button>
-    </form>
-    <a href="page2.html">О сайте</a>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"></script>
+  
 </body>
+  <h1>Заголовок 1 уровня</h1>
+  <p class="paragraph-1">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+    Expedita consequuntur ab praesentium blanditiis. 
+    Expedita repellat vel eveniet, necessitatibus modi error enim 
+    illum, deleniti repudiandae cupiditate dicta animi aut? Veritatis, voluptas?
+  </p>
+  <h2>Заголовок 2 уровня</h2>
+  <p class="paragraph-3">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+    Expedita consequuntur ab praesentium blanditiis. 
+    Expedita repellat vel eveniet, necessitatibus modi error enim 
+    illum, deleniti repudiandae cupiditate dicta animi aut? Veritatis, voluptas?
+  </p>
+  <h3>Заголовок 3 уровня</h3>
+  <h4>Заголовок 4 уровня</h4>
+  <h5>Заголовок 5 уровня</h5>
+  <h6>Заголовок 6 уровня</h6>
+  <h3>Планы на сегодня</h3>
+  <ul>
+    <li>Искупаться в озере</li>
+    <li>Поспать</li>
+    <li>Генеральная уборка</li>
+    <li>Поиграть в доту</li>
+  </ul>
+  <img src="skelet.jpg" />
 </html>
-<<<<<<< HEAD
-.
-=======
->>>>>>> f9ac6a82c3eb55bfbbb4bcc07ed4b961a1b5c415
+
+
+css:
+h1 {
+    background: red;
+}
+.paragraph-1 {
+    background: blueviolet;
+    font-size: larger;
+    color: aqua;
+}
+.paragraph-2 {
+    font-size: 46pt;
+    border: 10px solid black;
+    border-radius: 5px;
+    color:brown;
+} 
+.paragraph-3 {
+    font-style: italic;
+     text-align: center;
+    font-size: 24px;
+    color: green;
+    text-shadow: 2px 2px green;
