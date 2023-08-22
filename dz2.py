@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -60,3 +61,11 @@ h1 {
     font-size: 24px;
     color: green;
     text-shadow: 2px 2px green;
+=======
+
+def is_palindrome(s):
+    return s == s[::-1]
+s1 = input()
+print(is_palindrome(s1))
+
+>>>>>>> 5feeb3e0ff9fc11680fd4ed318fa7f7bed028bea
