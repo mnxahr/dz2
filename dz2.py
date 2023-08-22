@@ -50,4 +50,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"></script>
 </body>
 </html>
+<<<<<<< HEAD
 .
+=======
+>>>>>>> f9ac6a82c3eb55bfbbb4bcc07ed4b961a1b5c415
